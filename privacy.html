@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmoothGetup - Privacy Policy</title>
+  <!-- Tailwind CSS CDN for elegant external rendering -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;750&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen">
+
+  <!-- Header Banner -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-xs">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-amber-500 to-orange-600 shadow-sm flex items-center justify-center text-white font-bold text-lg">
+          ☀️
+        </div>
+        <div>
+          <h1 class="text-lg font-bold text-slate-900 tracking-tight leading-none">SmoothGetup</h1>
+          <span class="text-xs text-slate-500 font-medium">Privacy Policy</span>
+        </div>
+      </div>
+      
+      <!-- Multi-language Quick Navigation -->
+      <div class="flex items-center bg-slate-100 rounded-lg p-1 text-xs font-medium">
+        <button onclick="switchLang('en')" id="btn-en" class="px-3 py-1 rounded-md transition bg-white text-slate-900 shadow-xs">English</button>
+        <button onclick="switchLang('fr')" id="btn-fr" class="px-3 py-1 rounded-md transition text-slate-600 hover:text-slate-900">Français</button>
+        <button onclick="switchLang('es')" id="btn-es" class="px-3 py-1 rounded-md transition text-slate-600 hover:text-slate-900">Español</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content Container -->
+  <main class="max-w-4xl mx-auto px-6 py-10">
+    <div class="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-6 sm:p-10">
+      
+      <!-- ================= ENGLISH SECTION ================= -->
+      <div id="lang-en" class="lang-section space-y-6">
+        <div>
+          <h2 class="text-2xl font-extrabold text-slate-900 tracking-tight">Privacy Policy</h2>
+          <p class="text-xs text-slate-400 mt-1">Last Updated: May 26, 2026</p>
+        </div>
+
+        <div class="p-4 bg-orange-50/50 rounded-xl border border-orange-200/40 text-sm text-slate-700 leading-relaxed">
+          <strong class="text-orange-800 font-semiboldBlock">Commitment to Privacy:</strong> SmoothGetup is built with a strict offline-first design philosophy. We do not use user accounts, transmit personal sleep patterns, or utilize external behavioral tracker kits. Your metrics and sleep routines remain entirely yours, stored safely on your device.
+        </div>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">1.</span> Application Identification & Governance
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            This Privacy Policy governs the Android application <strong>SmoothGetup</strong> (Package Name: <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">com.fi9.smoothwakeupalarm</code>). SmoothGetup is designed to provide optimized wake-up routines, sunrise light transitions, sleep breathing guidelines, and adaptive morning weather alarms.
+          </p>
+        </section>
+
+        <section class="space-y-4">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">2.</span> Device Permissions & Core Purpose disclosures
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            To provide precise and reliable alarm routines without crashing, the application requires several Android system permissions. Below is a detailed disclosure of how these permissions are strictly used:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Exact Alarm Scheduling</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Uses the Android Exact Alarm framework to launch your sunrise simulation exactly on schedule. Needed to guarantee alerts trigger when you expect them.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Ringtone & Audio Customization</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Accesses standard local device system chimes and ringtones when user requests a specific wake-up song via the Custom Ringtone Selector interface.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-950 uppercase tracking-wide block text-indigo-700">Internet & Location Queries</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Connects briefly to a public API (<code class="font-mono">api.open-meteo.com</code>) strictly for regional weather-adaptive forecasts. Location values are processed in real-time and never logged.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Wake Lock & Screen Brightness</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Allows the glowing display to remain on and scale brightness during sunset winddown or dynamic sunrise simulations so colors stay visible.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">3.</span> Zero-Data Collection and Sharing
+          </h3>
+          <ul class="list-disc leading-relaxed pl-5 text-sm text-slate-600 space-y-2">
+            <li><strong>Personal Information:</strong> We do not collect names, phone numbers, contact books, emails, or unique device MAC coordinates.</li>
+            <li><strong>No Analytics or Ads:</strong> There are no third-party telemetry frameworks, performance diagnostics logs, or invasive advertiser SDKs active inside the binary.</li>
+            <li><strong>No Cloud sync database:</strong> All settings, designated chimes, and wake schedules are persisted exclusively using the secure Android SQLite/Room database on local user storage.</li>
+          </ul>
+        </section>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">4.</span> Compliance with Google Play Policies
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            The app fully complies with the Google Play Developer Distribution Agreement. It incorporates no hidden subscriptions, complies with local laws, protects family privacy thresholds, and represents itself transparently without mock or misleading claims.
+          </p>
+        </section>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">5.</span> Privacy Contact Information
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            If you have questions regarding offline data preservation, permissions, or any general concerns, please reach out to the developer directly at:
+          </p>
+          <div class="p-3 bg-slate-100/50 rounded-lg inline-flex items-center gap-2 text-sm text-slate-700 font-medium">
+            📧 <a href="mailto:omarmarco2023@gmail.com" class="text-orange-600 hover:underline">omarmarco2023@gmail.com</a>
+          </div>
+        </section>
+      </div>
+
+      <!-- ================= FRENCH SECTION ================= -->
+      <div id="lang-fr" class="lang-section hidden space-y-6">
+        <div>
+          <h2 class="text-2xl font-extrabold text-slate-900 tracking-tight">Politique de Confidentialité</h2>
+          <p class="text-xs text-slate-400 mt-1">Dernière mise à jour : 26 mai 2026</p>
+        </div>
+
+        <div class="p-4 bg-orange-50/50 rounded-xl border border-orange-200/40 text-sm text-slate-700 leading-relaxed">
+          <strong class="text-orange-800 font-semiboldBlock">Engagement de confidentialité :</strong> SmoothGetup est conçu selon une architecture strictement hors-ligne (offline-first). Nous ne créons aucun compte utilisateur, ne transmettons pas vos habitudes de sommeil et n'utilisons aucun traceur tiers. Vos paramètres restent stockés en toute sécurité sur votre propre appareil.
+        </div>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">1.</span> Identification de l'application
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Cette politique régit l'application Android <strong>SmoothGetup</strong> (Nom du package : <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">com.fi9.smoothwakeupalarm</code>). SmoothGetup a pour but de fournir des routines de réveil optimales, des simulations lumineuses de lever du soleil, et des sonneries adaptées aux conditions météorologiques locales.
+          </p>
+        </section>
+
+        <section class="space-y-4">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">2.</span> Autorisations du système et justification d'usage
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Afin d'assurer des réveils fiables et paramétrables, l'application requiert les autorisations Android suivantes :
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Planification d'Alarmes Exactes</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Permet à votre réveil de se déclencher précisément à la minute près, même lorsque l'appareil est en veille profonde.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Sélecteur de Sonneries & Médias</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Permet d'accéder aux listes de sonneries système système ou aux fichiers sonores de l'appareil choisis par l'utilisateur pour le réveil.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-950 uppercase tracking-wide block text-indigo-700">Réseau & Requêtes Météo</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Récupère de manière anonyme et temporaire les conditions météorologiques via l'API publique non-intrusive Open-Meteo sans journalisation des coordonnées.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Mode Veille & Luminosité Tactile</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Maintient l'écran allumé pendant les simulateurs de lever de soleil progressif et permet de modifier finement la luminosité lors des phases d'endormissement.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">3.</span> Absence totale de collecte et de partage
+          </h3>
+          <ul class="list-disc leading-relaxed pl-5 text-sm text-slate-600 space-y-2">
+            <li><strong>Données Personnelles :</strong> Aucun nom, adresse, email ou identifiant publicitaire n'est collecté n'y stocké à l'extérieur.</li>
+            <li><strong>Absence de traceurs analytiques :</strong> Aucune solution statistique invasive ou outil publicitaire tiers n'est inclus au sein du package.</li>
+            <li><strong>Persistance Locale :</strong> Les réveils et préférences sont mémorisés localement via une base de données Room (SQLite native cryptée par le système).</li>
+          </ul>
+        </section>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">4.</span> Contact & Support technique
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Pour toute question concernant la protection de vos données locales ou l'usage des capteurs, n'hésitez pas à nous envoyer un courriel à d'adresse :
+          </p>
+          <div class="p-3 bg-slate-100/50 rounded-lg inline-flex items-center gap-2 text-sm text-slate-700 font-medium">
+            📧 <a href="mailto:omarmarco2023@gmail.com" class="text-orange-600 hover:underline">omarmarco2023@gmail.com</a>
+          </div>
+        </section>
+      </div>
+
+      <!-- ================= ESPANOL SECTION ================= -->
+      <div id="lang-es" class="lang-section hidden space-y-6">
+        <div>
+          <h2 class="text-2xl font-extrabold text-slate-900 tracking-tight">Política de Privacidad</h2>
+          <p class="text-xs text-slate-400 mt-1">Última actualización: 26 de mayo de 2026</p>
+        </div>
+
+        <div class="p-4 bg-orange-50/50 rounded-xl border border-orange-200/40 text-sm text-slate-700 leading-relaxed">
+          <strong class="text-orange-800 font-semiboldBlock">Compromiso con la Privacidad:</strong> SmoothGetup funciona bajo un modelo local libre de conexiones invasivas (offline-first). No requerimos perfiles de usuario, ni procesamos ni exportamos registros de sueño fuera de su dispositivo móvil.
+        </div>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">1.</span> Identificación de la Aplicación
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Esta política de privacidad rige la aplicación móvil para Android <strong>SmoothGetup</strong> (Nombre del paquete: <code class="bg-slate-100 px-1.5 py-0.5 rounded text-xs font-mono">com.fi9.smoothwakeupalarm</code>). El propósito de la misma reside en automatizar rutinas de despertar mediante intensidades lumínicas y chimes adaptados de acuerdo al tiempo meteorológico real.
+          </p>
+        </section>
+
+        <section class="space-y-4">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">2.</span> Permisos Requeridos y Finalidades
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Para garantizar un funcionamiento fiable y evitar interrupciones por optimizadores de batería, se emplean los siguientes accesos:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Programación de Alarmas Exactas</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Necesario para lanzar la simulación de amanecer exactamente a la hora estipulada por el usuario.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Personalización de Tonos y Medios</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Posibilita indexar y reproducir las melodías nativas o sonidos seleccionados por el usuario para su despertar.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-950 uppercase tracking-wide block text-indigo-700">Consultas de Red (Meteo)</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Permite consultar el pronóstico actual a Open-Meteo de forma temporal para acomodar el sonido sonoro. No se rastrean ubicaciones fijas.
+              </p>
+            </div>
+            <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl space-y-1">
+              <strong class="text-xs font-bold text-slate-900 uppercase tracking-wide block text-amber-700">Control de Brillo y Bloqueo de Suspensión</strong>
+              <p class="text-xs text-slate-500 leading-relaxed">
+                Mantiene la pantalla encendida y el gradiente estético activo durante el atardecer guiado y simulador solar.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="space-y-3">
+          <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+            <span class="text-amber-500">3.</span> Contacto de Soporte
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Para cualquier aclaración o sugerencia sobre nuestro diseño enfocado en la privacidad de datos locales, escríbanos de inmediato a:
+          </p>
+          <div class="p-3 bg-slate-100/50 rounded-lg inline-flex items-center gap-2 text-sm text-slate-700 font-medium">
+            📧 <a href="mailto:omarmarco2023@gmail.com" class="text-orange-600 hover:underline">omarmarco2023@gmail.com</a>
+          </div>
+        </section>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center pb-12 text-xs text-slate-400 font-medium border-t border-slate-200/45 pt-6 mt-12">
+    SmoothGetup Inc. © 2026. All rights reserved.
+  </footer>
+
+  <!-- Script for Language Tabs -->
+  <script>
+    function switchLang(lang) {
+      // Hide all sections
+      const sections = document.querySelectorAll('.lang-section');
+      sections.forEach(s => s.classList.add('hidden'));
+      
+      // Show selected
+      document.getElementById('lang-' + lang).classList.remove('hidden');
+
+      // Update button styles
+      const btns = ['en', 'fr', 'es'];
+      btns.forEach(b => {
+        const btn = document.getElementById('btn-' + b);
+        if (b === lang) {
+          btn.className = "px-3 py-1 rounded-md transition bg-white text-slate-900 shadow-xs";
+        } else {
+          btn.className = "px-3 py-1 rounded-md transition text-slate-600 hover:text-slate-900";
+        }
+      });
+    }
+  </script>
+</body>
+</html>
